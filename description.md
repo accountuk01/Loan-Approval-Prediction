@@ -1,39 +1,25 @@
-# Loan Approval Prediction Project
+# Medical Cost Prediction
+![](https://miro.medium.com/v2/resize:fit:1400/0*ssbGU5VIxtVB6NrF)
+This data science project aims to predict individual medical costs using a dataset containing various attributes related to health insurance. The project focuses on analyzing features such as age, gender, BMI, number of children, smoking status, region, and predicting the corresponding medical costs.
+## Dataset Information
+The dataset used in this project provides information about health insurance beneficiaries and their medical costs. It includes the following columns:
 
-![](https://miro.medium.com/v2/resize:fit:640/1*UC0sy0bENl-DLPy3jmXNag.jpeg)
+| Variable | Description |
+| --- | --- |
+| age | age of primary beneficiary |
+|bmi | body mass index |
+|children | number of children covered by health insurance |
+|smoker | smoking |
+|region | the beneficiary's residential area in the US |
+|charges | individual medical costs billed by health insurance |
 
-## Project Overview
+## Objective
+The main objective of this project is to develop a predictive model that can accurately estimate the medical costs for individuals based on their attributes. By analyzing the dataset and identifying patterns and relationships, the model will provide insights into the factors influencing medical expenses.
 
-The **Loan Approval Prediction** project aims to predict whether a loan application will be approved by a bank. This prediction is made by analyzing various factors and information provided by the applicant. The project involves assessing variables such as loan amount, tenure, CIBIL score, education, assets, and other relevant features. The primary objective is to understand the factors that influence loan approval and develop a predictive model to determine the likelihood of loan approval for new applicants. Additionally, the project seeks to enhance customer service by prioritizing applicants who are more likely to have their loans approved.
+## Approach
+The project will involve several steps, including data preprocessing, exploratory data analysis, feature engineering, model selection, and evaluation. The dataset will be prepared by handling missing values, encoding categorical variables, and scaling numerical features. Various regression algorithms, such as linear regression, decision trees, random forests, or gradient boosting, will be explored and evaluated to determine the most effective model for cost prediction.
 
-#### Data Dictionary
+## Impact
+Accurate medical cost prediction has significant implications for various stakeholders, including insurance companies, healthcare providers, and individuals. A reliable predictive model can assist insurance companies in assessing risks, determining appropriate premium rates, and managing resources efficiently. Healthcare providers can benefit from cost estimation to optimize resource allocation and budget planning. Additionally, individuals can gain insights into their potential medical expenses and make informed decisions regarding health insurance coverage.
 
-| Variable                  | Description                                         |
-|--------------------------|-----------------------------------------------------|
-| loan_id                  | Unique identifier for each loan application         |
-| no_of_dependents         | Number of dependents of the applicant              |
-| education                | Education level of the applicant                   |
-| self_employed            | Indicates whether the applicant is self-employed   |
-| income_annum             | Annual income of the applicant                     |
-| loan_amount              | Loan amount requested by the applicant             |
-| loan_tenure              | Tenure of the loan requested by the applicant (in years) |
-| cibil_score              | CIBIL score of the applicant                       |
-| residential_asset_value  | Value of the applicant's residential asset         |
-| commercial_asset_value   | Value of the applicant's commercial asset          |
-| luxury_asset_value       | Value of the applicant's luxury asset              |
-| bank_assets_value        | Value of the applicant's bank asset                |
-| loan_status              | Status of the loan (Approved/Rejected)             |
-
-## Conclusion
-
-The **Loan Approval Prediction** project provides valuable insights into loan approval determinants and offers predictive models to aid banks in making informed lending decisions. The project's outcomes contribute to a more efficient and customer-focused loan approval process. The project's conclusion emphasizes the following key points:
-
-1. **Efficient Loan Approval Process:** The project's predictive models enable banks to streamline the loan approval process by prioritizing applications with higher chances of approval. This reduces processing time and improves customer satisfaction.
-
-2. **Informed Decision-Making:** By identifying significant factors, the project empowers decision-makers to make data-driven lending decisions, enhancing the accuracy and reliability of loan approvals.
-
-3. **Customer-Centric Approach:** The ability to provide priority services to applicants with higher chances of loan approval strengthens the bank's customer-centric approach, leading to better customer experiences.
-
-4. **Risk Mitigation:** Understanding the factors contributing to loan approval allows banks to assess and manage risk more effectively, resulting in a reduced risk of defaults and non-repayment.
-
-In conclusion, the **Loan Approval Prediction** project contributes to a more effective loan approval process, better risk management, and improved customer service within the banking sector.
+By leveraging machine learning techniques, this project aims to provide valuable insights into medical cost prediction and contribute to more accurate financial planning in the healthcare industry.
